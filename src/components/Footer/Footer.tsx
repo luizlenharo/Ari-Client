@@ -1,0 +1,7 @@
+export function Footer() {
+    return (
+        <footer>
+            <p>© 2025 Ari. All rights reserved.</p>
+        </footer>
+    )
+}
