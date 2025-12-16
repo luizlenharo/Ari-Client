@@ -5,12 +5,12 @@ import Image from 'next/image';
 export function Header() {
   return (
     <header className={styles.header}>
-      <Link href="/">
+      <Link href="/" className={styles.logo}>
         <Image
           src="/ari.svg"
           alt="Logo Ari"
           width={142}
-          height={60}
+          height={50}
           priority
         />
       </Link>
